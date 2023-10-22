@@ -1,0 +1,263 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.animation-container {
+    position: relative;
+    overflow: hidden;
+    /* height: 100px;  */
+}
+
+.fly-in {
+    animation: fly-in 2s ease-out forwards;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: top;
+}
+.fly-in1 {
+    animation: fly-in 2s ease-out forwards;
+    top: 1%;
+    left: 50%;
+    transform: translate(-20%, -20%);
+    text-align: top;
+}
+.fly-in2 {
+    animation: fly-in2 3s linear forwards;
+    opacity: 0;
+    text-align: top;
+}
+
+.animated-name {
+    font-size: 24px;
+    color: #313032;
+    font-weight: bolder;
+}
+
+@keyframes fly-in {
+    0% {
+        opacity: 0;
+        transform: translate(-40%, -40%) translateX(-40px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fly-in2 {
+    0% {
+        opacity: 0;
+    }
+    2% {
+        opacity: 0.02;
+    }
+    4% {
+        opacity: 0.04;
+    }
+    6% {
+        opacity: 0.06;
+    }
+    8% {
+        opacity: 0.08;}
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    } 
+    100% {
+        opacity: 1;
+    } 
+}
+
+.transparent-card {
+  background: rgba(255, 255, 255, 0.1);
+}
+.title{
+  color:rgb(93, 88, 88)
+}
+
+.dark-gray-shadow {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* 0 0 20px sets the shadow size and 0.5 sets the shadow opacity */
+}
+
+.offcanvas-start {
+  max-width: 3%;
+  width: 100%;
+}
+
+
+@media (max-width: 992px) {
+  .offcanvas-start {
+    max-width: 3%; 
+    width: 100%;
+  }
+}
+
+
+
+
+
+.navIcon {
+    width: 6.25rem;
+  }
+  
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+  }
+
+  
+  #skillsCard {
+    background: #030304d9;
+    color: white;
+  }
+  
+  #skillCard:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+  }
+  
+  #skillsCard:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+  }
+  
+  .projectCardWrapper {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .projectCard {
+    width: 100%;
+  }
+  
+  .custom-margin-top {
+    margin-top: 5rem;
+  }
+  
+  .projectCardWrapper {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .projectCard {
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .projectCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectCard .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .projectCard .card-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .projectCard button {
+    background-color: transparent !important;
+    border-color: black !important;
+    color: black !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+  }
+  
+  .projectCard button:hover {
+    color: white !important;
+    background-color: black !important;
+  }
+  
+  #aboutIMG {
+    background: transparent;
+    border: none;
+  }
+  
+  .custom-margin-top-start {
+    margin-top: 8rem;
+  }
+  
+  #githubLogo {
+    margin-top: 1%;
+    border-radius: 50%;
+    max-height: 45px;
+  }
+  
+  #linkedinLogo {
+    margin-top: 3%;
+    max-height: 30px;
+    border-radius: 11%;
+  }
+  
+  .outerPageLinks {
+    border: 0;
+  
+    height: 50px;
+  }
+  
+  .outerPageLinks:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+  }
+  
+  #resumeButton {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resumeButton:hover {
+    color: white !important;
+    background-color: rgb(53, 52, 52) !important;
+    border: thick #77797c;
+  }
+  
+  .contactButton:hover {
+    color: white !important;
+    background-color: black !important;
+    border: thick #0d6efd;
+  }
+  
+  .lastButton {
+    background-color: transparent !important;
+    border-color: black !important;
+    color: black !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+  }
+  
+  .lastButton:hover {
+    color: white !important;
+    background-color: black !important;
+    border: thick #0d6efd;
+  }
