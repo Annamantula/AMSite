@@ -10,7 +10,7 @@
     "client:build": "react-scripts build",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install --prefix src && npm run build --prefix src && npm run build --prefix public"
+    "heroku-postbuild": "npm install --prefix AMSite && npm run build --prefix AMSite"
   },
   "keywords": [],
   "author": "",
