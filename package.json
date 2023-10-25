@@ -8,7 +8,7 @@
     "start-dev": "NODE_ENV='development' react-scripts start",
     "start": "react-scripts start",
     "client:build": "react-scripts build",
-    "build":"heroku-postbuild"
+    "build": "heroku-postbuild"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.11.1",
+    "node": "^21.0.0",
     "nodemailer": "^6.9.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
@@ -41,7 +42,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-      "babel-core": "6.26.3", 
-      "babel-loader": "7.1.5"
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5"
   }
 }
