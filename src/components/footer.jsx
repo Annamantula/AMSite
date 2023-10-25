@@ -24,7 +24,6 @@ const Footer = () => {
               />
             </a>
           </Col>
-
           <Col xs={12} md={4} className="text-center mb-5">
             <a
               id="gitHub"

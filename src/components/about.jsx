@@ -29,24 +29,28 @@ const About = () => {
                   role="button" 
                   aria-controls="sidebar"
                   style={{color: "#918b8b",fontSize:'35px'}}
-                  href ="#sidebar">
+                  href ="#sidebar"
+                >
                      <img className = "img-fluid" src="../ANNAMMM3.jpg" alt ="personal photo"></img> 
                 </a>
                 <a className="d-block mt-0 justify-content-center"
-                  data-bs-toggle ="offcanvas"
                   role="button" 
-                  aria-controls="sidebar"
-                  style={{color: "#918b8b",fontSize:'34px', marginLeft: "5px",paddingLeft:"20%"}}
-                  href ="#sidebar">
-                    My Resume 
+                  style={{
+                    color: "#918b8b",
+                    fontSize:'34px', 
+                    marginLeft: "5px",
+                    paddingLeft:"20%", 
+                  }}
+                  href ="https://drive.google.com/file/d/18gJuov63NQqs0Jbjjg4WFvb2GKZvsrp8/view?usp=sharing"
+                  target="_blank"
+                 >My Resume 
                 </a>
-            
                 <div className="offcanvas offcanvas-start" 
                    tabIndex="-1" 
                    id="sidebar" 
                    aria-labelledby="sidebar-label"
                    style={{opacity:'0.7'}}
-                   >
+                >
                     <div className="offcanvas-body" 
                        style={{ 
                        marginTop: "50%", 
@@ -54,7 +58,8 @@ const About = () => {
                        display: 'flex', 
                        flexDirection: 'column', 
                        alignItems: 'end', 
-                       justifyContent: 'start'}}>
+                       justifyContent: 'start'}}
+                    >
                             <Button style={{fontSize:"22px"}}
                                 type="button" 
                                 className="btn-close text-end justify-content-end m-10 p-10" 
@@ -67,9 +72,9 @@ const About = () => {
                                        color:"#413f3f", 
                                        backgroundColor: "#dbfdb0", 
                                        boxShadow: "6px 6px 8px 2px #999999"}}
-                                           href ="https://drive.google.com/file/d/18gJuov63NQqs0Jbjjg4WFvb2GKZvsrp8/view?usp=sharing"
-                                           target="_blank"
-                                           >Print My Resume
+                                       href ="https://drive.google.com/file/d/18gJuov63NQqs0Jbjjg4WFvb2GKZvsrp8/view?usp=sharing"
+                                       target="_blank"
+                                    >Print My Resume
                                   </a>
                     </div>
                 </div>
